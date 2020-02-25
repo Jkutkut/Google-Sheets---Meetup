@@ -14,3 +14,8 @@ Each user must have an individual sheet in order for this script to work (this c
 
 
 When all of this is correctly filled, the "Main" sheet will display the calendar with the amount of people available on that particular day, following the criteria defined on the "peopleReady" function on the customfunctions.js file.
+
+
+Example of operative file:
+
+![EgMain](https://github.com/Jkutkut/Google-Sheets-Meetup/resources/MeetupEgMain.png)
