@@ -18,4 +18,4 @@ When all of this is correctly filled, the "Main" sheet will display the calendar
 
 Example of operative file:
 
-![EgMain](https://github.com/Jkutkut/Google-Sheets-Meetup/resources/MeetupEgMain.png)
+![EgMain](https://github.com/Jkutkut/Google-Sheets-Meetup/blob/master/resources/MeetupEgMain.png)
