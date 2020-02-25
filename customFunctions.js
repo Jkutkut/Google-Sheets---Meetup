@@ -2,13 +2,13 @@
 calculates the day in the calendar grid.
 *Math.round((fila-altura) / 2)*7 = nº of the week in mounth * 7 (round to generate the code in "one-gap-row format").
 
-@param {Date} Ahora actual date
-@param {number} Altura row margin
-@param {number} Anchura column margin
+@param {Date} Actual date
+@param {number} Height row margin
+@param {number} Weight column margin
 @param {number} Fila row
 @param {number} Columna column
-@param {number} diaMesAnterior last month week's day
-@param {number} diaMesAnterior this month week's day
+@param {number} diaMesAnterior/last month week's day
+@param {number} diaMesAnterior/this month week's day
 
 @return the day in that cell or "" if not a valid cell
 
