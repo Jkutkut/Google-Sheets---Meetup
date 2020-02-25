@@ -1,9 +1,16 @@
 # Google-Sheets-Meetup
+
+## Content
+Contains two functions in order to:
+DIACALENDARIO: generate dynamically a calendar based on the "Date of reference".
+peopleReady: Check the sheets to get the number of users available to join the meetup.
+
+### The objective of this project:
 Easy way to arrange meetups on a defined period of time.
 
-Given a defined starting month, this groups of functions allows us to visualize possible meetups on that period of time.
+Given a defined starting month (Date of reference, cell B1 on Main Sheet), this groups of functions allows us to visualize possible meetups on that period of time.
 
-Each user must have an individual sheet in order for this script to work.
+Each user must have an individual sheet in order for this script to work (this can be done simply by duplicating the sheet for the admin of the file, since all works the same way).
 
 
-When all of this is correctly filled, the "Main" sheet displays the calendar with the amount of people available on that particular day.
+When all of this is correctly filled, the "Main" sheet will display the calendar with the amount of people available on that particular day, following the criteria defined on the "peopleReady" function on the customfunctions.js file.
