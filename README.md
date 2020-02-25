@@ -4,8 +4,9 @@
 Contains two functions in order to:
 *DIACALENDARIO*: generate dynamically a calendar based on the "Date of reference".
   On my case, I used this function to show the number of each day of the month.
-      =DIACALENDARIO($B$1;$Q$6;$Q$5;FILA();COLUMNA();DIASEM(FIN.MES($B$1; -1);2);DIA(FIN.MES($B$1;0)))
-
+'''
+=DIACALENDARIO($B$1;$Q$6;$Q$5;FILA();COLUMNA();DIASEM(FIN.MES($B$1; -1);2);DIA(FIN.MES($B$1;0)))
+'''
 *peopleReady*: Check the sheets to get the number of users available to join the meetup.
 
 ### The objective of this project:
