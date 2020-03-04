@@ -27,10 +27,15 @@ Contains two functions in order to:
       
       `=peopleReady(FILA();COLUMNA())`
       
-*#note:*
+*#note1:*
    The format of the week day (monday, M, L...) can be also changed from settings:
+   
    Being the number at the end the day of the week (e.g. 1 = M, 2 = T, 3 = W...)
+      
       `=INDIRECTO("Main!" & Main!$Q$7 & 1)`
+      
+*#note2:*
+   In order to make it more attractive, condicional format is used. This is not required for the logic to work.
 
 
 Example of operative file:
