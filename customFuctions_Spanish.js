@@ -1,16 +1,14 @@
 /**
-calculates the day in the calendar grid.
-*Math.round((fila-altura) / 2)*7 = nº of the week in mounth * 7 (round to generate the code in "one-gap-row format").
+Calcula el día del mes en la tabla
+@param {Date} Ahora Fecha actual
+@param {number} Altura Margen de las filas
+@param {number} Anchura Margen de las columnas
+@param {number} Fila Fila
+@param {number} Columna Culumna
+@param {number} diaMesAnterior El día del mes en el que acabó el mes anterior.
+@param {number} diaFinMes Día cuando acaba este mes.
 
-@param {Date} Ahora actual date
-@param {number} Altura row margin
-@param {number} Anchura column margin
-@param {number} Fila row
-@param {number} Columna column
-@param {number} diaMesAnterior last month week's day
-@param {number} diaMesAnterior this month week's day
-
-@return the day in that cell or "" if not a valid cell
+@return El día del mes en la celda correcta. Si no es una celda válida, "".
 
 @customfunction
 */
@@ -25,22 +23,20 @@ function DIACALENDARIO(ahora, altura, anchura, fila, columna, diaFinMesAnterior,
 }
 
 /**
-Check the rest of the pages to get the number of users ready to join the party.
-
-@param {number} row The current row
-@param {number} column The current column
-@return the number of users ready to party in current day
+Mira el resto de páginas para obtener el nº de usuarios disponibles para la reunión.
+@param {number} row La fila actual
+@param {number} column La columna actual
+@return El número de personas disponibles el día seleccionado
 
 @customfunction
 */
-function peopleReady(row, column){ 
-  //return "";
+function peopleReady(row, column){
   var ss = SpreadsheetApp.getActiveSpreadsheet().getSheets();
   var result = 0;
   var nope = false;
   
   if(ss[0].getRange(row - 1, column).getValue() == ""){
-      //if not day of this month
+      //Si encima no está el día del mes => no es una celda válida
       return "";
   }
   for(var i = 1; i <ss.length - 1; i++){ 
