@@ -10,8 +10,12 @@ Contains two functions in order to:
      `=DIACALENDARIO($B$1;$Q$6;$Q$5;FILA();COLUMNA();DIASEM(FIN.MES($B$1; -1);2);DIA(FIN.MES($B$1;0)))`
 
 *peopleReady*: Check the sheets to get the number of users available to join the meetup.
+   
    The way to use this function is the following:
+      
       `=peopleReady(FILA();COLUMNA())`
+
+
 
 ### The objective of this project:
 Easy way to arrange meetups on a defined period of time.
