@@ -27,11 +27,13 @@ Contains two functions in order to:
       
       `=peopleReady(FILA();COLUMNA())`
       
-*#note:* format of the week day (monday, M, L...) can be also changed from settings:
+*#note:*
+   The format of the week day (monday, M, L...) can be also changed from settings:
    Being the number at the end the day of the week (e.g. 1 = M, 2 = T, 3 = W...)
-   `=INDIRECTO("Main!" & Main!$Q$7 & 1)`
+      `=INDIRECTO("Main!" & Main!$Q$7 & 1)`
 
 
 Example of operative file:
 
 ![EgMain](https://github.com/Jkutkut/Google-Sheets-Meetup/blob/master/resources/MeetupEgMain.png)
+
