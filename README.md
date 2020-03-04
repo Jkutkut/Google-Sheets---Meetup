@@ -36,4 +36,8 @@ Contains two functions in order to:
 Example of operative file:
 
 ![EgMain](https://github.com/Jkutkut/Google-Sheets-Meetup/blob/master/resources/MeetupEgMain.png)
-
+![egSheets](https://github.com/Jkutkut/Google-Sheets-Meetup/)
+![Settings](https://github.com/Jkutkut/Google-Sheets-Meetup/Google_sheet_settings.png)
+![sheets](https://github.com/Jkutkut/Google-Sheets-Meetup/Google_sheet_demo_sheets.png)
+![sheetRoot](https://github.com/Jkutkut/Google-Sheets-Meetup/Google_sheet_demoRoot.png)
+![sheetUser1](https://github.com/Jkutkut/Google-Sheets-Meetup/Google_sheet_demoUser1.png)
